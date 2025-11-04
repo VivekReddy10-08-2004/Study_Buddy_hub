@@ -1,4 +1,4 @@
-Team Name: ?
+Team Name: Study Buddies
 
 Member Names + Emails:
 
@@ -7,3 +7,5 @@ Member Names + Emails:
 - Jacob Craig : Jacob.Craig@Maine.Edu
 
 - Vivek Reddy : vivek.bhimavarapu@maine.edu
+
+- Sarah Kayembe : sarah.kayembe@maine.edu
