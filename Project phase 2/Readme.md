@@ -50,5 +50,13 @@ Tasks due for 11/07/2025 - Sarah-Kayembe - Sarah Kayembe
   - Summarize steps taken for data cleaning and transformation
   - Include source websites, methods used, and sample outputs
   - Upload document to repository for documentation and review
-
+  Tasks due for 11/04/2025 - VivekReddy10-08-2004 - Vivek Reddy Bhimavarapu
+  All SQL for the Quizzes & Flashcards section.
+  - Define the schema for a Quizzes & Flashcards app.
+  - Creates tables
+  - Adds relationships via foreign keys.
+    
+  Tasks due for 11/09/2025 - VivekReddy10-08-2004 - Vivek Reddy Bhimavarapu
+  - Inserting scraped data into the tables.
+  - Query optimization analysis of Quizzes & Flashcards section.
 
