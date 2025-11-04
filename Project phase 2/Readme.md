@@ -60,3 +60,9 @@ Tasks due for 11/07/2025 - Sarah-Kayembe - Sarah Kayembe
   - Inserting scraped data into the tables.
   - Query optimization analysis of Quizzes & Flashcards section.
 
+Group deadlines:
+TEAM CONTRIBUTION FILE Nov 9
+The README FILE Nov 10
+TEST THE ENTIRE SCRIPT Nov 10
+REVIEW ALL THE WORK  Nov 11
+RECORDED VIDEO DEMONSTRATION Nov 12
