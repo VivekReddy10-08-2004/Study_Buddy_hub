@@ -8,21 +8,21 @@ USE User_ManagementDB;
 
 -- Table for "college"
 -- Basic identifying information of a student's college
-CREATE TABLE college (
+CREATE TABLE Colleges (
 	college_id int PRIMARY KEY AUTO_INCREMENT,
     college_name varchar(255) NOT NULL UNIQUE
 );
 
 -- Table for "majors"
 -- Basic identifying information of a student's majors
-CREATE TABLE majors (
+CREATE TABLE Majors (
 	major_id int PRIMARY KEY AUTO_INCREMENT,
     major_name varchar(255) NOT NULL UNIQUE
 );
 
 -- Table for "user"
 -- Stores basic user information, as well as their colleges, and majors (Foreign keys)
-CREATE TABLE user (
+CREATE TABLE Users (
 	user_id int PRIMARY KEY AUTO_INCREMENT,
     email varchar(255) NOT NULL UNIQUE,
     password_hash varchar(255) NOT NULL,
@@ -33,18 +33,18 @@ CREATE TABLE user (
     bio text NULL,
     college_id int,
     major_id int,
-    FOREIGN KEY (college_id) references college(college_id),
-    FOREIGN KEY (major_id) references major(major_id)
+    FOREIGN KEY (college_id) REFERENCES Colleges(college_id),
+    FOREIGN KEY (major_id) REFERENCES Majors(major_id)
 );
 
 -- Table for "courses"
 -- Stores basic information about a course, including what college it belongs to (Foreign key)
-CREATE TABLE courses (
+CREATE TABLE Courses (
 	course_id int PRIMARY KEY AUTO_INCREMENT,
     course_code varchar(20) NOT NULL,
     course_name varchar(255) NOT NULL,
     college_id int,
-    FOREIGN KEY (college_id) references college(college_id)
+    FOREIGN KEY (college_id) REFERENCES Colleges(college_id)
 );
 
 -- ----------------------------------------------------------------------------------------------
