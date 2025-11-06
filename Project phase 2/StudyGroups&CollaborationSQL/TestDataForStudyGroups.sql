@@ -2,10 +2,6 @@ SET autocommit = 0;
 START TRANSACTION;
 SAVEPOINT seed_start;
 
-INSERT INTO Users (user_id) VALUES (1001),(1002),(1003),(1004),(1005),(1006);
-INSERT INTO Courses(course_id) VALUES (420), (161); -- For testing purposes, course_id will look different.
-
-
 INSERT INTO Study_Group(group_name, max_members, is_private, course_id)
 VALUES
 	('group1', 8, FALSE, 420),
