@@ -1,0 +1,561 @@
+answer_id,question_id,answer_text,is_correct
+1,4,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+2,4,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+3,4,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+4,4,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+5,5,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+6,5,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+7,5,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+8,5,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+9,10,Option A for Sample Question 1 for reddit.comhttps://www.reddit.com,1
+10,10,Option B for Sample Question 1 for reddit.comhttps://www.reddit.com,0
+11,10,Option C for Sample Question 1 for reddit.comhttps://www.reddit.com,0
+12,10,Option D for Sample Question 1 for reddit.comhttps://www.reddit.com,0
+13,11,Option A for Sample Question 2 for reddit.comhttps://www.reddit.com,1
+14,11,Option B for Sample Question 2 for reddit.comhttps://www.reddit.com,0
+15,11,Option C for Sample Question 2 for reddit.comhttps://www.reddit.com,0
+16,11,Option D for Sample Question 2 for reddit.comhttps://www.reddit.com,0
+17,12,Option A for Sample Question 3 for reddit.comhttps://www.reddit.com,1
+18,12,Option B for Sample Question 3 for reddit.comhttps://www.reddit.com,0
+19,12,Option C for Sample Question 3 for reddit.comhttps://www.reddit.com,0
+20,12,Option D for Sample Question 3 for reddit.comhttps://www.reddit.com,0
+21,13,Option A for Sample Question 1 for reddit.comhttps://www.reddit.com › chess › comments › heres_how_to_use_liches…,1
+22,13,Option B for Sample Question 1 for reddit.comhttps://www.reddit.com › chess › comments › heres_how_to_use_liches…,0
+23,13,Option C for Sample Question 1 for reddit.comhttps://www.reddit.com › chess › comments › heres_how_to_use_liches…,0
+24,13,Option D for Sample Question 1 for reddit.comhttps://www.reddit.com › chess › comments › heres_how_to_use_liches…,0
+25,26,Option A for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,1
+26,26,Option B for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+27,26,Option C for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+28,26,Option D for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+29,31,Option A for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com,1
+30,31,Option B for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com,0
+31,31,Option C for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com,0
+32,31,Option D for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com,0
+33,32,Option A for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com,1
+34,32,Option B for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com,0
+35,32,Option C for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com,0
+36,32,Option D for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com,0
+37,37,Option A for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com › de,1
+38,37,Option B for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com › de,0
+39,37,Option C for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com › de,0
+40,37,Option D for Sample Question 1 for dryfta.comhttps://2020forum.dryfta.com › de,0
+41,46,Option A for Sample Question 1 for britannica.comhttps://www.britannica.com › science › anthropology,1
+42,46,Option B for Sample Question 1 for britannica.comhttps://www.britannica.com › science › anthropology,0
+43,46,Option C for Sample Question 1 for britannica.comhttps://www.britannica.com › science › anthropology,0
+44,46,Option D for Sample Question 1 for britannica.comhttps://www.britannica.com › science › anthropology,0
+45,48,Option A for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology,1
+46,48,Option B for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology,0
+47,48,Option C for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology,0
+48,48,Option D for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology,0
+49,53,Option A for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,1
+50,53,Option B for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+51,53,Option C for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+52,53,Option D for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+53,54,Option A for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,1
+54,54,Option B for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+55,54,Option C for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+56,54,Option D for Sample Question 3 for britannica.comhttps://www.britannica.com › science › anthropology › The-major-branch…,0
+57,56,Option A for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › Social-and...,1
+58,56,Option B for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › Social-and...,0
+59,56,Option C for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › Social-and...,0
+60,56,Option D for Sample Question 2 for britannica.comhttps://www.britannica.com › science › anthropology › Social-and...,0
+61,65,Option A for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,1
+62,65,Option B for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+63,65,Option C for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+64,65,Option D for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+65,66,Option A for Sample Question 3 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,1
+66,66,Option B for Sample Question 3 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+67,66,Option C for Sample Question 3 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+68,66,Option D for Sample Question 3 for internationaltrucks.comhttps://mexico.internationaltrucks.com › distribuidores,0
+69,70,Option A for Sample Question 1 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,1
+70,70,Option B for Sample Question 1 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+71,70,Option C for Sample Question 1 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+72,70,Option D for Sample Question 1 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+73,71,Option A for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,1
+74,71,Option B for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+75,71,Option C for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+76,71,Option D for Sample Question 2 for internationaltrucks.comhttps://mexico.internationaltrucks.com › camiones-de-carga,0
+77,77,Option A for Sample Question 2 for public.comhttps://public.com,1
+78,77,Option B for Sample Question 2 for public.comhttps://public.com,0
+79,77,Option C for Sample Question 2 for public.comhttps://public.com,0
+80,77,Option D for Sample Question 2 for public.comhttps://public.com,0
+81,83,Option A for Sample Question 2 for public.comhttps://public.com › invest › stocks,1
+82,83,Option B for Sample Question 2 for public.comhttps://public.com › invest › stocks,0
+83,83,Option C for Sample Question 2 for public.comhttps://public.com › invest › stocks,0
+84,83,Option D for Sample Question 2 for public.comhttps://public.com › invest › stocks,0
+85,86,Option A for Sample Question 2 for public.comhttps://public.com › about-us,1
+86,86,Option B for Sample Question 2 for public.comhttps://public.com › about-us,0
+87,86,Option C for Sample Question 2 for public.comhttps://public.com › about-us,0
+88,86,Option D for Sample Question 2 for public.comhttps://public.com › about-us,0
+89,88,Option A for Sample Question 1 for public.comhttps://public.com › high-yield-cash-account,1
+90,88,Option B for Sample Question 1 for public.comhttps://public.com › high-yield-cash-account,0
+91,88,Option C for Sample Question 1 for public.comhttps://public.com › high-yield-cash-account,0
+92,88,Option D for Sample Question 1 for public.comhttps://public.com › high-yield-cash-account,0
+93,89,Option A for Sample Question 2 for public.comhttps://public.com › high-yield-cash-account,1
+94,89,Option B for Sample Question 2 for public.comhttps://public.com › high-yield-cash-account,0
+95,89,Option C for Sample Question 2 for public.comhttps://public.com › high-yield-cash-account,0
+96,89,Option D for Sample Question 2 for public.comhttps://public.com › high-yield-cash-account,0
+97,94,Option A for Sample Question 1 for britannica.comhttps://www.britannica.com › place › Africa,1
+98,94,Option B for Sample Question 1 for britannica.comhttps://www.britannica.com › place › Africa,0
+99,94,Option C for Sample Question 1 for britannica.comhttps://www.britannica.com › place › Africa,0
+100,94,Option D for Sample Question 1 for britannica.comhttps://www.britannica.com › place › Africa,0
+101,96,Option A for Sample Question 3 for britannica.comhttps://www.britannica.com › place › Africa,1
+102,96,Option B for Sample Question 3 for britannica.comhttps://www.britannica.com › place › Africa,0
+103,96,Option C for Sample Question 3 for britannica.comhttps://www.britannica.com › place › Africa,0
+104,96,Option D for Sample Question 3 for britannica.comhttps://www.britannica.com › place › Africa,0
+105,99,Option A for Sample Question 3 for bbc.comhttps://www.bbc.com › news › world › africa,1
+106,99,Option B for Sample Question 3 for bbc.comhttps://www.bbc.com › news › world › africa,0
+107,99,Option C for Sample Question 3 for bbc.comhttps://www.bbc.com › news › world › africa,0
+108,99,Option D for Sample Question 3 for bbc.comhttps://www.bbc.com › news › world › africa,0
+109,100,Option A for Sample Question 1 for history.comhttps://www.history.com › topics › africa,1
+110,100,Option B for Sample Question 1 for history.comhttps://www.history.com › topics › africa,0
+111,100,Option C for Sample Question 1 for history.comhttps://www.history.com › topics › africa,0
+112,100,Option D for Sample Question 1 for history.comhttps://www.history.com › topics › africa,0
+113,103,Option A for Sample Question 1 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,1
+114,103,Option B for Sample Question 1 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+115,103,Option C for Sample Question 1 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+116,103,Option D for Sample Question 1 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+117,104,Option A for Sample Question 2 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,1
+118,104,Option B for Sample Question 2 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+119,104,Option C for Sample Question 2 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+120,104,Option D for Sample Question 2 for nationalgeographic.orghttps://education.nationalgeographic.org › resource › africa...,0
+121,107,Option A for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,1
+122,107,Option B for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+123,107,Option C for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+124,107,Option D for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+125,115,Option A for Sample Question 1 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,1
+126,115,Option B for Sample Question 1 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+127,115,Option C for Sample Question 1 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+128,115,Option D for Sample Question 1 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+129,117,Option A for Sample Question 3 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,1
+130,117,Option B for Sample Question 3 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+131,117,Option C for Sample Question 3 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+132,117,Option D for Sample Question 3 for collinsdictionary.comhttps://www.collinsdictionary.com › dictionary › english › topic,0
+133,123,Option A for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,1
+134,123,Option B for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+135,123,Option C for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+136,123,Option D for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+137,126,Option A for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,1
+138,126,Option B for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+139,126,Option C for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+140,126,Option D for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+141,127,Option A for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › event,1
+142,127,Option B for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › event,0
+143,127,Option C for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › event,0
+144,127,Option D for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › event,0
+145,132,Option A for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,1
+146,132,Option B for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+147,132,Option C for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+148,132,Option D for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com,0
+149,133,Option A for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,1
+150,133,Option B for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+151,133,Option C for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+152,133,Option D for Sample Question 1 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+153,135,Option A for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,1
+154,135,Option B for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+155,135,Option C for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+156,135,Option D for Sample Question 3 for japan-guide.comhttps://www.japan-guide.com › news › overtourism.html,0
+157,137,Option A for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,1
+158,137,Option B for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+159,137,Option C for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+160,137,Option D for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › topic,0
+161,142,Option A for Sample Question 1 for thoughtco.comhttps://www.thoughtco.com,1
+162,142,Option B for Sample Question 1 for thoughtco.comhttps://www.thoughtco.com,0
+163,142,Option C for Sample Question 1 for thoughtco.comhttps://www.thoughtco.com,0
+164,142,Option D for Sample Question 1 for thoughtco.comhttps://www.thoughtco.com,0
+165,150,Option A for Sample Question 3 for thoughtco.comhttps://www.thoughtco.com,1
+166,150,Option B for Sample Question 3 for thoughtco.comhttps://www.thoughtco.com,0
+167,150,Option C for Sample Question 3 for thoughtco.comhttps://www.thoughtco.com,0
+168,150,Option D for Sample Question 3 for thoughtco.comhttps://www.thoughtco.com,0
+169,154,Option A for Sample Question 1 for epa.govhttps://www.epa.gov › in,1
+170,154,Option B for Sample Question 1 for epa.govhttps://www.epa.gov › in,0
+171,154,Option C for Sample Question 1 for epa.govhttps://www.epa.gov › in,0
+172,154,Option D for Sample Question 1 for epa.govhttps://www.epa.gov › in,0
+173,156,Option A for Sample Question 3 for epa.govhttps://www.epa.gov › in,1
+174,156,Option B for Sample Question 3 for epa.govhttps://www.epa.gov › in,0
+175,156,Option C for Sample Question 3 for epa.govhttps://www.epa.gov › in,0
+176,156,Option D for Sample Question 3 for epa.govhttps://www.epa.gov › in,0
+177,159,Option A for Sample Question 3 for epa.govhttps://www.epa.gov › environmental-topics,1
+178,159,Option B for Sample Question 3 for epa.govhttps://www.epa.gov › environmental-topics,0
+179,159,Option C for Sample Question 3 for epa.govhttps://www.epa.gov › environmental-topics,0
+180,159,Option D for Sample Question 3 for epa.govhttps://www.epa.gov › environmental-topics,0
+181,160,Option A for Sample Question 1 for epa.govhttps://www.epa.gov › laws-regulations,1
+182,160,Option B for Sample Question 1 for epa.govhttps://www.epa.gov › laws-regulations,0
+183,160,Option C for Sample Question 1 for epa.govhttps://www.epa.gov › laws-regulations,0
+184,160,Option D for Sample Question 1 for epa.govhttps://www.epa.gov › laws-regulations,0
+185,161,Option A for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,1
+186,161,Option B for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+187,161,Option C for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+188,161,Option D for Sample Question 2 for epa.govhttps://www.epa.gov › laws-regulations,0
+189,165,Option A for Sample Question 3 for who.inthttps://www.who.int › health-topics › environmental-health,1
+190,165,Option B for Sample Question 3 for who.inthttps://www.who.int › health-topics › environmental-health,0
+191,165,Option C for Sample Question 3 for who.inthttps://www.who.int › health-topics › environmental-health,0
+192,165,Option D for Sample Question 3 for who.inthttps://www.who.int › health-topics › environmental-health,0
+193,170,Option A for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,1
+194,170,Option B for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+195,170,Option C for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+196,170,Option D for Sample Question 2 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+197,171,Option A for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,1
+198,171,Option B for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+199,171,Option C for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+200,171,Option D for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de › register › passwordreset,0
+201,174,Option A for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de,1
+202,174,Option B for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de,0
+203,174,Option C for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de,0
+204,174,Option D for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › de,0
+205,177,Option A for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › speakers › session-recommendations,1
+206,177,Option B for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › speakers › session-recommendations,0
+207,177,Option C for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › speakers › session-recommendations,0
+208,177,Option D for Sample Question 3 for dryfta.comhttps://2020forum.dryfta.com › speakers › session-recommendations,0
+209,181,Option A for Sample Question 1 for public.comhttps://public.com,1
+210,181,Option B for Sample Question 1 for public.comhttps://public.com,0
+211,181,Option C for Sample Question 1 for public.comhttps://public.com,0
+212,181,Option D for Sample Question 1 for public.comhttps://public.com,0
+213,185,Option A for Sample Question 2 for public.comhttps://public.com › login,1
+214,185,Option B for Sample Question 2 for public.comhttps://public.com › login,0
+215,185,Option C for Sample Question 2 for public.comhttps://public.com › login,0
+216,185,Option D for Sample Question 2 for public.comhttps://public.com › login,0
+217,191,Option A for Sample Question 2 for public.comhttps://public.com › about-us,1
+218,191,Option B for Sample Question 2 for public.comhttps://public.com › about-us,0
+219,191,Option C for Sample Question 2 for public.comhttps://public.com › about-us,0
+220,191,Option D for Sample Question 2 for public.comhttps://public.com › about-us,0
+221,196,Option A for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,1
+222,196,Option B for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+223,196,Option C for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+224,196,Option D for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+225,197,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+226,197,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+227,197,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+228,197,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+229,203,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+230,203,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+231,203,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+232,203,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+233,206,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+234,206,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+235,206,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+236,206,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+237,207,Option A for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,1
+238,207,Option B for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+239,207,Option C for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+240,207,Option D for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+241,208,Option A for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,1
+242,208,Option B for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+243,208,Option C for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+244,208,Option D for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+245,214,Option A for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,1
+246,214,Option B for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+247,214,Option C for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+248,214,Option D for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+249,215,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+250,215,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+251,215,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+252,215,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+253,231,Option A for Sample Question 3 for google.comhttps://support.google.com › maps › answer,1
+254,231,Option B for Sample Question 3 for google.comhttps://support.google.com › maps › answer,0
+255,231,Option C for Sample Question 3 for google.comhttps://support.google.com › maps › answer,0
+256,231,Option D for Sample Question 3 for google.comhttps://support.google.com › maps › answer,0
+257,233,Option A for Sample Question 2 for google.comhttps://support.google.com › gemini › answer,1
+258,233,Option B for Sample Question 2 for google.comhttps://support.google.com › gemini › answer,0
+259,233,Option C for Sample Question 2 for google.comhttps://support.google.com › gemini › answer,0
+260,233,Option D for Sample Question 2 for google.comhttps://support.google.com › gemini › answer,0
+261,236,Option A for Sample Question 2 for google.comhttps://support.google.com › googlenest › answer,1
+262,236,Option B for Sample Question 2 for google.comhttps://support.google.com › googlenest › answer,0
+263,236,Option C for Sample Question 2 for google.comhttps://support.google.com › googlenest › answer,0
+264,236,Option D for Sample Question 2 for google.comhttps://support.google.com › googlenest › answer,0
+265,238,Option A for Sample Question 1 for google.comhttps://support.google.com › pixelphone › answer,1
+266,238,Option B for Sample Question 1 for google.comhttps://support.google.com › pixelphone › answer,0
+267,238,Option C for Sample Question 1 for google.comhttps://support.google.com › pixelphone › answer,0
+268,238,Option D for Sample Question 1 for google.comhttps://support.google.com › pixelphone › answer,0
+269,239,Option A for Sample Question 2 for google.comhttps://support.google.com › pixelphone › answer,1
+270,239,Option B for Sample Question 2 for google.comhttps://support.google.com › pixelphone › answer,0
+271,239,Option C for Sample Question 2 for google.comhttps://support.google.com › pixelphone › answer,0
+272,239,Option D for Sample Question 2 for google.comhttps://support.google.com › pixelphone › answer,0
+273,241,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+274,241,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+275,241,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+276,241,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+277,242,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+278,242,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+279,242,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+280,242,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+281,243,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+282,243,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+283,243,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+284,243,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+285,246,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+286,246,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+287,246,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+288,246,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+289,247,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+290,247,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+291,247,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+292,247,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+293,248,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+294,248,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+295,248,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+296,248,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+297,249,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+298,249,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+299,249,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+300,249,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+301,252,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question › answers › updated,1
+302,252,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+303,252,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+304,252,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+305,262,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+306,262,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+307,262,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+308,262,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+309,263,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+310,263,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+311,263,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+312,263,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+313,266,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question › answers › updated,1
+314,266,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+315,266,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+316,266,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question › answers › updated,0
+317,268,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+318,268,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+319,268,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+320,268,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+321,270,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+322,270,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+323,270,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+324,270,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+325,277,Option A for Sample Question 1 for cre8pharmacy.comhttps://www.cre8pharmacy.com › contact,1
+326,277,Option B for Sample Question 1 for cre8pharmacy.comhttps://www.cre8pharmacy.com › contact,0
+327,277,Option C for Sample Question 1 for cre8pharmacy.comhttps://www.cre8pharmacy.com › contact,0
+328,277,Option D for Sample Question 1 for cre8pharmacy.comhttps://www.cre8pharmacy.com › contact,0
+329,286,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+330,286,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+331,286,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+332,286,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+333,289,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+334,289,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+335,289,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+336,289,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+337,292,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+338,292,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+339,292,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+340,292,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+341,294,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+342,294,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+343,294,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+344,294,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+345,295,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+346,295,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+347,295,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+348,295,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+349,302,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+350,302,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+351,302,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+352,302,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+353,306,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+354,306,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+355,306,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+356,306,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+357,309,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+358,309,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+359,309,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+360,309,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+361,311,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+362,311,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+363,311,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+364,311,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+365,314,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+366,314,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+367,314,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+368,314,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+369,316,Option A for Sample Question 1 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,1
+370,316,Option B for Sample Question 1 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+371,316,Option C for Sample Question 1 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+372,316,Option D for Sample Question 1 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+373,317,Option A for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,1
+374,317,Option B for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+375,317,Option C for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+376,317,Option D for Sample Question 2 for merriam-webster.comhttps://www.merriam-webster.com › dictionary › fundamental,0
+377,319,Option A for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,1
+378,319,Option B for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+379,319,Option C for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+380,319,Option D for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+381,321,Option A for Sample Question 3 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,1
+382,321,Option B for Sample Question 3 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+383,321,Option C for Sample Question 3 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+384,321,Option D for Sample Question 3 for cambridge.orghttps://dictionary.cambridge.org › dictionary › english › fundamentals,0
+385,322,Option A for Sample Question 1 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,1
+386,322,Option B for Sample Question 1 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+387,322,Option C for Sample Question 1 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+388,322,Option D for Sample Question 1 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+389,324,Option A for Sample Question 3 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,1
+390,324,Option B for Sample Question 3 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+391,324,Option C for Sample Question 3 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+392,324,Option D for Sample Question 3 for investopedia.comhttps://www.investopedia.com › terms › fundamentals.asp,0
+393,325,Option A for Sample Question 1 for dictionary.comhttps://www.dictionary.com › browse › fundamental,1
+394,325,Option B for Sample Question 1 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+395,325,Option C for Sample Question 1 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+396,325,Option D for Sample Question 1 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+397,326,Option A for Sample Question 2 for dictionary.comhttps://www.dictionary.com › browse › fundamental,1
+398,326,Option B for Sample Question 2 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+399,326,Option C for Sample Question 2 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+400,326,Option D for Sample Question 2 for dictionary.comhttps://www.dictionary.com › browse › fundamental,0
+401,331,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+402,331,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+403,331,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+404,331,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+405,334,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com,1
+406,334,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com,0
+407,334,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com,0
+408,334,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com,0
+409,337,Option A for Sample Question 1 for cathe.comhttps://cathe.com,1
+410,337,Option B for Sample Question 1 for cathe.comhttps://cathe.com,0
+411,337,Option C for Sample Question 1 for cathe.comhttps://cathe.com,0
+412,337,Option D for Sample Question 1 for cathe.comhttps://cathe.com,0
+413,344,Option A for Sample Question 2 for cathe.comhttps://cathe.com,1
+414,344,Option B for Sample Question 2 for cathe.comhttps://cathe.com,0
+415,344,Option C for Sample Question 2 for cathe.comhttps://cathe.com,0
+416,344,Option D for Sample Question 2 for cathe.comhttps://cathe.com,0
+417,347,Option A for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-transformation,1
+418,347,Option B for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-transformation,0
+419,347,Option C for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-transformation,0
+420,347,Option D for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-transformation,0
+421,351,Option A for Sample Question 3 for ibm.comhttps://www.ibm.com › products › digital-asset-haven,1
+422,351,Option B for Sample Question 3 for ibm.comhttps://www.ibm.com › products › digital-asset-haven,0
+423,351,Option C for Sample Question 3 for ibm.comhttps://www.ibm.com › products › digital-asset-haven,0
+424,351,Option D for Sample Question 3 for ibm.comhttps://www.ibm.com › products › digital-asset-haven,0
+425,353,Option A for Sample Question 2 for ibm.comhttps://www.ibm.com › es-es › think › topics › digital-transformation,1
+426,353,Option B for Sample Question 2 for ibm.comhttps://www.ibm.com › es-es › think › topics › digital-transformation,0
+427,353,Option C for Sample Question 2 for ibm.comhttps://www.ibm.com › es-es › think › topics › digital-transformation,0
+428,353,Option D for Sample Question 2 for ibm.comhttps://www.ibm.com › es-es › think › topics › digital-transformation,0
+429,355,Option A for Sample Question 1 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,1
+430,355,Option B for Sample Question 1 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+431,355,Option C for Sample Question 1 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+432,355,Option D for Sample Question 1 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+433,356,Option A for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,1
+434,356,Option B for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+435,356,Option C for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+436,356,Option D for Sample Question 2 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+437,357,Option A for Sample Question 3 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,1
+438,357,Option B for Sample Question 3 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+439,357,Option C for Sample Question 3 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+440,357,Option D for Sample Question 3 for ibm.comhttps://www.ibm.com › think › topics › digital-identity,0
+441,361,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+442,361,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+443,361,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+444,361,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+445,366,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+446,366,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+447,366,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+448,366,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+449,371,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+450,371,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+451,371,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+452,371,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+453,373,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+454,373,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+455,373,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+456,373,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+457,374,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+458,374,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+459,374,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+460,374,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+461,376,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+462,376,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+463,376,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+464,376,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+465,378,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+466,378,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+467,378,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+468,378,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+469,382,Option A for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,1
+470,382,Option B for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+471,382,Option C for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+472,382,Option D for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+473,383,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+474,383,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+475,383,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+476,383,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+477,386,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+478,386,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+479,386,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+480,386,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+481,391,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+482,391,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+483,391,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+484,391,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+485,395,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+486,395,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+487,395,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+488,395,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+489,398,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+490,398,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+491,398,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+492,398,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+493,401,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+494,401,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+495,401,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+496,401,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+497,402,Option A for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,1
+498,402,Option B for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+499,402,Option C for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+500,402,Option D for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+501,406,Option A for Sample Question 1 for sketch.iohttps://sketch.io › sketch,1
+502,406,Option B for Sample Question 1 for sketch.iohttps://sketch.io › sketch,0
+503,406,Option C for Sample Question 1 for sketch.iohttps://sketch.io › sketch,0
+504,406,Option D for Sample Question 1 for sketch.iohttps://sketch.io › sketch,0
+505,408,Option A for Sample Question 3 for sketch.iohttps://sketch.io › sketch,1
+506,408,Option B for Sample Question 3 for sketch.iohttps://sketch.io › sketch,0
+507,408,Option C for Sample Question 3 for sketch.iohttps://sketch.io › sketch,0
+508,408,Option D for Sample Question 3 for sketch.iohttps://sketch.io › sketch,0
+509,412,Option A for Sample Question 1 for sketch.iohttps://sketch.io,1
+510,412,Option B for Sample Question 1 for sketch.iohttps://sketch.io,0
+511,412,Option C for Sample Question 1 for sketch.iohttps://sketch.io,0
+512,412,Option D for Sample Question 1 for sketch.iohttps://sketch.io,0
+513,413,Option A for Sample Question 2 for sketch.iohttps://sketch.io,1
+514,413,Option B for Sample Question 2 for sketch.iohttps://sketch.io,0
+515,413,Option C for Sample Question 2 for sketch.iohttps://sketch.io,0
+516,413,Option D for Sample Question 2 for sketch.iohttps://sketch.io,0
+517,414,Option A for Sample Question 3 for sketch.iohttps://sketch.io,1
+518,414,Option B for Sample Question 3 for sketch.iohttps://sketch.io,0
+519,414,Option C for Sample Question 3 for sketch.iohttps://sketch.io,0
+520,414,Option D for Sample Question 3 for sketch.iohttps://sketch.io,0
+521,415,Option A for Sample Question 1 for sketch.iohttps://sketch.io › mobile,1
+522,415,Option B for Sample Question 1 for sketch.iohttps://sketch.io › mobile,0
+523,415,Option C for Sample Question 1 for sketch.iohttps://sketch.io › mobile,0
+524,415,Option D for Sample Question 1 for sketch.iohttps://sketch.io › mobile,0
+525,423,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+526,423,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+527,423,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+528,423,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+529,424,Option A for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,1
+530,424,Option B for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+531,424,Option C for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+532,424,Option D for Sample Question 1 for zhihu.comhttps://www.zhihu.com › question,0
+533,425,Option A for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,1
+534,425,Option B for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+535,425,Option C for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+536,425,Option D for Sample Question 2 for zhihu.comhttps://www.zhihu.com › question,0
+537,426,Option A for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,1
+538,426,Option B for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+539,426,Option C for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+540,426,Option D for Sample Question 3 for zhihu.comhttps://www.zhihu.com › question,0
+541,427,Option A for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,1
+542,427,Option B for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+543,427,Option C for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+544,427,Option D for Sample Question 1 for stackexchange.comhttps://english.stackexchange.com › questions,0
+545,428,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+546,428,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+547,428,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+548,428,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+549,431,Option A for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,1
+550,431,Option B for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+551,431,Option C for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+552,431,Option D for Sample Question 2 for stackexchange.comhttps://english.stackexchange.com › questions,0
+553,432,Option A for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,1
+554,432,Option B for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+555,432,Option C for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+556,432,Option D for Sample Question 3 for stackexchange.comhttps://english.stackexchange.com › questions,0
+557,439,Option A for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › zht › 詞典 › 英語-漢語-繁體 › photogra…,1
+558,439,Option B for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › zht › 詞典 › 英語-漢語-繁體 › photogra…,0
+559,439,Option C for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › zht › 詞典 › 英語-漢語-繁體 › photogra…,0
+560,439,Option D for Sample Question 1 for cambridge.orghttps://dictionary.cambridge.org › zht › 詞典 › 英語-漢語-繁體 › photogra…,0
