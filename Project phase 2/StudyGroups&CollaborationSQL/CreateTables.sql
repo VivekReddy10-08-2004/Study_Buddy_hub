@@ -1,7 +1,4 @@
-CREATE TABLE IF NOT EXISTS Users (user_id INT PRIMARY KEY);
-CREATE TABLE IF NOT EXISTS Courses (course_id INT PRIMARY KEY);
--- When merged, replace above tables with actual tables...
--- For testing purposes
+
 
 CREATE TABLE Study_Group(
 	group_id INT PRIMARY KEY AUTO_INCREMENT,
