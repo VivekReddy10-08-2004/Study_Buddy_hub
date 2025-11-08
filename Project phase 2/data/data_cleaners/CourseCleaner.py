@@ -20,6 +20,6 @@ def CleanData():
 
 CleanData()
 
-output_path = "cleaned_courses.csv"
+output_path = "usm_courses_clean.csv"
 df.to_csv(output_path, index = False) # index = False prevents indices from being the first column
 print("Copy of cleaned courses saved to " + output_path)
