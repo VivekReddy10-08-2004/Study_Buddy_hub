@@ -1,4 +1,4 @@
-
+Use StudyBuddy;
 -- Trigger to enforce one owner only
 -- Will work on optimizing this later... 
 
