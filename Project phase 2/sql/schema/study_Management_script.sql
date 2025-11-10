@@ -6,6 +6,8 @@
 -- topics
 -- (Each course contains multiple topics)
 -- ------------------------------------------------------------
+USE StudyBuddy; -- Written by vivek on github.
+
 CREATE TABLE topics (
     topic_id BIGINT AUTO_INCREMENT PRIMARY KEY,
     course_id BIGINT NOT NULL,
