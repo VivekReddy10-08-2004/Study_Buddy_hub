@@ -1,5 +1,4 @@
-CREATE DATABASE User_ManagementDB;
-USE User_ManagementDB;
+use StudyBuddy;
 
 -- ----------------------------------------------------------------------------------------------
 -- Schema for User_Management
