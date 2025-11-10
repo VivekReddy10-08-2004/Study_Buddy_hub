@@ -5,7 +5,6 @@ from urllib.parse import urlparse, parse_qs, unquote
 # Cleans /data/course_resources.csv and writes:
 #   1) /data/clean/course_resources_cleaned.csv
 #   2) /Project phase 2/StudyGroups&CollaborationSQL/insert_resources.sql
-# Program by Jake Craig
 
 # === File Paths ===
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))   # /data
@@ -191,7 +190,7 @@ print(cdf.head(15).to_string(index=False))
 cdf.to_csv(CLEAN_CSV_OUT, index=False, encoding="utf-8")
 print(f"\n[OK] Cleaned {len(cdf)} rows -> {CLEAN_CSV_OUT}")
 
-# Write SQL (include source in insert)
+# Write SQL 
 lines = [
     "USE StudyBuddy;",
     f"SET @uploader_id := {DEFAULT_UPLOADER_ID};",
@@ -212,3 +211,4 @@ with open(SQL_OUT, "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
 print(f"[OK] Wrote SQL -> {SQL_OUT}")
+
