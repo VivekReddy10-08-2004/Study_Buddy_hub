@@ -1,6 +1,17 @@
 USE StudyBuddy;
-SET @uploader_id := 1001;
+
+
 START TRANSACTION;
+
+--expose the actual user_id w/ LAST_INSERT_ID
+INSERT INTO Users (user_id, email, password_hash, first_name, last_name)
+VALUES (1001, 'resources@system.local', 'placeholder', 'System', 'Seeder')
+ON DUPLICATE KEY UPDATE
+
+-- Capture the real id (will be 1001 if we created it, or the existing row's id if email already existed)
+SET @uploader_id := LAST_INSERT_ID();
+
+
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'Www.Zhihu.Com / 6463687174', '', 'LINK', 'https://www.zhihu.com/question/6463687174');
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'Www.Zhihu.Com / Www.Zhihu.Com', '', 'LINK', 'https://www.zhihu.com/');
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'Www.Reddit.Com / R/Chatgptpro/Comments/1Djvzff/What Is The Limit For Number Of Files And Data', '', 'LINK', 'https://www.reddit.com/r/ChatGPTPro/comments/1djvzff/what_is_the_limit_for_number_of_files_and_data/');
@@ -248,4 +259,5 @@ INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES 
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'Shop.Advanceautoparts.Com / 81542', '', 'LINK', 'https://shop.advanceautoparts.com/c1/engine/81542?msockid=2980831a16046a3f2c0b958617396bb5');
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'A1Ahr0Chm6Ly9Zag9Wlmfkdmfuy2Vhdxrvcgfydhmuy29Tl2Jyyw5Kcy9Hzhzhbmnllwf1Dg8Tcgfydhm Bxnvy2Tpzd0Yotgwod', '', 'LINK', 'a1aHR0cHM6Ly9zaG9wLmFkdmFuY2VhdXRvcGFydHMuY29tL2JyYW5kcy9hZHZhbmNlLWF1dG8tcGFydHM_bXNvY2tpZD0yOTgwODMxYTE2MDQ2YTNmMmMwYjk1ODYxNzM5NmJiNQ');
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'A1Ahr0Chm6Ly9Zag9Wlmfkdmfuy2Vhdxrvcgfydhmuy29Tl2M0L2Jhdhrlcnkvmtm2Ndy Bxnvy2Tpzd0Yotgwodmxyte2Mdq2Yt', '', 'LINK', 'a1aHR0cHM6Ly9zaG9wLmFkdmFuY2VhdXRvcGFydHMuY29tL2M0L2JhdHRlcnkvMTM2NDY_bXNvY2tpZD0yOTgwODMxYTE2MDQ2YTNmMmMwYjk1ODYxNzM5NmJiNQ');
+
 COMMIT;
