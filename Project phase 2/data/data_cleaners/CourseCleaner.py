@@ -6,7 +6,7 @@ import pandas as pd
 # absolute filepath.
 file_path = r"C:\Users\Work\Documents\GitHub\Study_Buddy_hub\Project phase 2\data\usm_courses.csv"
 df = pd.read_csv(file_path)
-cdf = pd.DataFrame(columns=['course_id', 'course_code', 'course_name', 'college_id'])
+cdf = pd.DataFrame(columns=['course_code', 'course_name', 'college_id'])
 
 file_height = len(df)
 
@@ -21,7 +21,9 @@ def CleanData():
         name_length = len(df.loc[i, 'course_name'])
         course_code = df.loc[i,'course_name'][:3] + df.loc[i,'course_name'][4:7] # course code is course abr + catalog #. Removes whitespace
         course_name = df.loc[i,'course_name'][10:name_length]
-        cdf.loc[i] = [i, course_code, course_name, None]
+        if "," in course_name:
+            course_name = course_name.replace(",", "")
+        cdf.loc[i] = [course_code, course_name, 819] # 819 is id of USM in the SQL file.
     print("Finished cleaning course data")
 
 CleanData()
