@@ -1,3 +1,5 @@
+USE StudyBuddy;
+
 /* 
    These indexes target frequent filter, join, and order-by patterns
    redeuces filesorts and improve range-scan
