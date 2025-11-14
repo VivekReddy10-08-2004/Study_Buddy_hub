@@ -133,7 +133,7 @@ ANALYZE TABLE
   Group_Summary;
 
 
--- Discover public groups for a course
+-- Discover public groups for a course for a specific course (example here is 420) 
 -- uses Group_Summary to avoid recalculating counts and last sessions
 EXPLAIN ANALYZE
 SELECT g.group_id, g.group_name, g.max_members,
