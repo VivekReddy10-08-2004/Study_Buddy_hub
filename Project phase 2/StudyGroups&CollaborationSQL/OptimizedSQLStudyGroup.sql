@@ -4,10 +4,10 @@
 */
 
 -- Study_Group: filter by (course_id, is_private), then join by PK
--- Enables quick access to public groups for a course
+-- quick access to public groups for a course
 CREATE INDEX idx_group_course_priv ON Study_Group(course_id, is_private, group_id);
 
--- Extra course to group path for cross-course queries (shared courses).
+-- extra course to group path for cross-course queries (shared courses).
 CREATE INDEX idx_group_course_group ON Study_Group(course_id, group_id);
 
 -- Group_Member: enables lookups both by user and by group
@@ -119,10 +119,6 @@ END//
 
 DELIMITER ;
 
-
-/* 
-   accurate EXPLAIN results.
- */
 ANALYZE TABLE
   Study_Group,
   Group_Member,
@@ -135,12 +131,8 @@ ANALYZE TABLE
   Group_Summary;
 
 
-/* 
-   Each query now benefits from indexing.
-*/
-
 -- Discover public groups for a course
--- Uses Group_Summary to avoid recalculating counts and last sessions
+-- uses Group_Summary to avoid recalculating counts and last sessions
 EXPLAIN ANALYZE
 SELECT g.group_id, g.group_name, g.max_members,
        gs.member_count AS members,
@@ -155,7 +147,7 @@ ORDER BY (gs.last_session IS NULL) ASC,
 LIMIT 20;
 
 
--- Retrieve all groups a user belongs to, along with their role
+-- get all groups a user belongs to, along with their role
 EXPLAIN ANALYZE
 SELECT g.group_id, g.group_name, gm.role
 FROM Group_Member AS gm
@@ -164,7 +156,7 @@ WHERE gm.user_id = 1001
 ORDER BY g.group_name;
 
 
--- View pending join requests (for group owners)
+-- view pending join requests (for group owners)
 EXPLAIN ANALYZE
 SELECT g.group_name, jr.user_id, jr.request_date, jr.expire_date
 FROM Join_Request AS jr
@@ -173,7 +165,7 @@ WHERE jr.join_status = 'pending'
 ORDER BY jr.expire_date;
 
 
--- List pending join requests and determine if user is already a member
+-- show pending join requests and determine if user is already a member
 EXPLAIN ANALYZE
 SELECT jr.request_id, jr.group_id, jr.user_id,
        CASE WHEN gm.user_id IS NULL THEN 'NOT_MEMBER' ELSE 'ALREADY_MEMBER' END AS membership_state
@@ -185,7 +177,7 @@ ORDER BY jr.request_date DESC
 LIMIT 50;
 
 
--- Display today’s sessions across all groups
+-- shows today’s sessions across all groups
 EXPLAIN ANALYZE
 SELECT g.group_name, s.location, s.session_date, s.start_time, s.end_time, s.notes
 FROM Study_Session AS s
@@ -194,7 +186,7 @@ WHERE s.session_date = CURRENT_DATE()
 ORDER BY g.group_name, s.start_time;
 
 
--- Show upcoming sessions for a specific user 
+-- shoow upcoming sessions for a specific user 
 EXPLAIN ANALYZE
 SELECT g.group_name, s.session_date, s.start_time, s.location
 FROM Group_Member AS gm
@@ -206,7 +198,7 @@ ORDER BY s.session_date, s.start_time
 LIMIT 50;
 
 
--- Fetch chat history efficiently using keyset pagination
+-- shows chat history efficiently using keyset pagination
 EXPLAIN ANALYZE
 SELECT c.message_id, c.user_id, c.content, c.sent_time
 FROM Chat_Message AS c
@@ -220,7 +212,7 @@ LIMIT 50;
 -- ORDER BY c.sent_time DESC, c.message_id DESC LIMIT 50;
 
 
--- Suggest study partners based on shared courses and compatible styles/preferences
+-- The suggested matches for study buddy
 EXPLAIN ANALYZE
 WITH shared_peers AS (
   SELECT DISTINCT gm2.user_id
@@ -240,7 +232,7 @@ ORDER BY mp2.user_id
 LIMIT 20;
 
 
--- Retrieve recent message requests (user inbox view)
+-- recent message requests (user inbox view)
 EXPLAIN ANALYZE
 SELECT mr.request_id, mr.requester_user_id, mr.course_id, mr.request_status, mr.created_at
 FROM Message_Request AS mr
@@ -249,7 +241,7 @@ ORDER BY mr.created_at DESC
 LIMIT 50;
 
 
--- Fetch latest uploaded resources (read-only view)
+-- latest uploaded resources (read-only view)
 EXPLAIN ANALYZE
 SELECT resource_id, title, filetype, source
 FROM Resource
