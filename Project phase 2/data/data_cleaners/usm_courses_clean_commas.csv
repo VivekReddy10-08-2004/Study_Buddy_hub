@@ -1,16 +1,16 @@
 course_code,course_name,college_id
 ANT306,Analysis of Archaeological Materials,819
 ANT308,Environmental Archaeology,819
-ANT315,Ethnography: Methods Ethics and Practice,819
+ANT315,"Ethnography: Methods, Ethics, and Practice",819
 ANT320,Anthropology & the Museum,819
 ANT350,International Development,819
 ANT360,Public Archaeology,819
 ANT380,African American Historical Archaeology,819
 ANT395,Topics in Anthropology,819
-ANT410,Japan: Archaeology Environmental History and Multicultural Perspectives,819
+ANT410,"Japan: Archaeology, Environmental History and Multicultural Perspectives",819
 ANT495,Topics in Anthropology,819
 ANT508,Environmental Archaeology,819
-ANT515,Ethnography: Methods Ethics and Practice,819
+ANT515,"Ethnography: Methods, Ethics, and Practice",819
 ANT560,Public Archaeology,819
 ARA101,Beginning Arabic I,819
 ARA102,Beginning Arabic II,819
@@ -18,8 +18,8 @@ ARA150,Language Table,819
 ARA201,Intermediate Arabic I,819
 ARA202,Intermediate Arabic II,819
 ART124,Cre8: The Art of Creativity,819
-ART141,Surface Space Time (2D),819
-ART142,Surface Space Time (3D),819
+ART141,"Surface, Space, Time (2D)",819
+ART142,"Surface, Space, Time (3D)",819
 ART151,Fundamentals of Perceptual Drawing,819
 ART170,The Power of Amateur Photography,819
 ART222,Digital Art & Design,819
@@ -92,7 +92,7 @@ BIO103,Introduction to Marine Biology,819
 BIO104,Marine Biology Laboratory,819
 BIO105,Biological Principles I: Cellular Biology,819
 BIO106,Laboratory Biology,819
-BIO107,Biological Principles II: Evolution Biodiversity and Ecology,819
+BIO107,"Biological Principles II: Evolution, Biodiversity, and Ecology",819
 BIO109,Biological Principles III: Functional Biology,819
 BIO111,Human Anatomy and Physiology I,819
 BIO112,Practical Human Anatomy and Physiology I,819
@@ -204,7 +204,7 @@ BUS386,Creative Strategies for Entrepreneurs,819
 BUS387,Design Thinking,819
 BUS388,Launching a Global Social Enterprise,819
 BUS389,Self-directed Innovation Project,819
-BUS390,Internship in Innovation Creativity and Entrepreneurship,819
+BUS390,"Internship in Innovation, Creativity and Entrepreneurship",819
 BUS391,Internship in Sustainable Business,819
 BUS392,Internship in Marketing,819
 BUS394,Internship in International Business,819
@@ -385,7 +385,7 @@ CRM340,Criminal Law,819
 CRM345,Criminology in Sweden,819
 CRM350,Topics in Criminology,819
 CRM365,Race and Punishment,819
-CRM375,Media Crime and Criminality,819
+CRM375,"Media, Crime, and Criminality",819
 CRM380,Restorative Justice,819
 CRM390,Independent Projects,819
 CRM395,Internship,819
@@ -412,7 +412,7 @@ ECO100,Introduction to Economics Ideas and Issues,819
 ECO101,Introduction to Macroeconomics,819
 ECO102,Introduction to Microeconomics,819
 ECO103,Critical Thinking About Economic Issues,819
-ECO120,Lying with Graphs: Reading Writing and Interpreting Graphs in the Social Sciences,819
+ECO120,"Lying with Graphs: Reading, Writing and Interpreting Graphs in the Social Sciences",819
 ECO220,U.S. Economic and Labor History,819
 ECO301,Intermediate Macroeconomics,819
 ECO302,Intermediate Microeconomics,819
@@ -455,7 +455,7 @@ EDU445,Internship in General Education,819
 EDU451,Elementary Social Studies Methods for All Students Including Those of Diverse Abilities and Backgrounds,819
 EDU452,Teaching Elementary Science to All Students Including Those of Diverse Abilities and Backgrounds,819
 EDU454,Secondary Mathematics Methods for All Students Including Those of Diverse Abilities and Backgrounds,819
-EDU465,Teaching Reading for All Students in Grades K-8 Including Those with Diverse Abilities and Backgrounds,819
+EDU465,"Teaching Reading for All Students in Grades K-8, Including Those with Diverse Abilities and Backgrounds",819
 EDU466,Teaching Writing for All Students Including Those with Diverse Abilities and Backgrounds.,819
 ELE172,Digital Logic,819
 ELE179,Digital Logic Laboratory,819
@@ -498,7 +498,7 @@ ENG301,Poetry Writing,819
 ENG302,Fiction Workshop,819
 ENG303,Poetry Workshop,819
 ENG304,Advanced Memoir,819
-ENG305,Rhetoric Syntax and Style,819
+ENG305,"Rhetoric, Syntax, and Style",819
 ENG306,Writing the Novel,819
 ENG307,Topics in Professional Writing,819
 ENG309,Newswriting,819
@@ -522,7 +522,7 @@ ENG341,Contemporary Critical Theories,819
 ENG342,Topics in Contemporary Theory,819
 ENG344,Sex/Gender and Sexuality,819
 ENG345,Racial Formations,819
-ENG346,Language Literature and the Politics of Identity in Contemporary Ireland,819
+ENG346,"Language, Literature and the Politics of Identity in Contemporary Ireland",819
 ENG347,Topics in Cultural Studies,819
 ENG348,Topics in Interdisciplinary Studies,819
 ENG350,Medieval English Literature,819
@@ -541,7 +541,7 @@ ENG366,Studies in the Restoration and Eighteenth Century,819
 ENG367,Literature and Culture of the Early Republic,819
 ENG368,Studies in Eighteenth-Century American Literature and Culture,819
 ENG369,Emergence of the Novel,819
-ENG370,Literature of Discovery Exploration and Colonialism,819
+ENG370,"Literature of Discovery, Exploration, and Colonialism",819
 ENG371,Romantic Writing,819
 ENG373,Studies in Romantic Literature and Culture,819
 ENG375,Nineteenth-Century British Novel,819
@@ -589,18 +589,18 @@ ENG490,Independent Study in Literature Since 1900,819
 ENG491,Seminar in Literature Since 1900,819
 ESL006,Intensive Grammar,819
 ESL007,Listening and Oral Communication/US Culture,819
-ESL008,Reading Writing & Vocabulary,819
+ESL008,"Reading, Writing & Vocabulary",819
 ESL009,Intensive Reading and Speaking Fluency,819
 ESL016,Intensive Grammar,819
 ESL017,Listening and Oral Communication/US Culture,819
-ESL018,Reading Writing & Vocabulary,819
+ESL018,"Reading, Writing & Vocabulary",819
 ESL019,Intensive Reading and Speaking Fluency,819
-ESL099,Intermediate Reading Writing and Vocabulary,819
+ESL099,"Intermediate Reading, Writing, and Vocabulary",819
 ESL100,College Writing,819
 ESL101,Admissions Pathway Program Level I: Intermediate/Advanced Grammar and Writing,819
 ESL102,Admissions Pathway Program Level II: Advanced Grammar and Writing,819
-ESL103,Admissions Pathway Program Level I: Intermediate/ Advanced Reading Writing and Vocabulary,819
-ESL104,Admissions Pathway Program Level II: Advanced Reading Writing and Vocabulary,819
+ESL103,"Admissions Pathway Program Level I: Intermediate/ Advanced Reading, Writing, and Vocabulary",819
+ESL104,"Admissions Pathway Program Level II: Advanced Reading, Writing, and Vocabulary",819
 ESP101,Environmental Science and Sustainability,819
 ESP102,Fundamentals of Environmental Science Laboratory,819
 ESP123,Quantitative Reasoning and the Environment,819
@@ -611,7 +611,7 @@ ESP150,Environmental Science Field Immersion Session,819
 ESP197,Research Skills Lab,819
 ESP200,Environmental Planning,819
 ESP203,Environmental Communication,819
-ESP207,Atmosphere: Science Climate and Change,819
+ESP207,"Atmosphere: Science, Climate, and Change",819
 ESP220,Introduction to Environmental Policy,819
 ESP250,Soils and Land Use,819
 ESP260,Soil and Water Conservation Engineering,819
@@ -643,10 +643,10 @@ ESP470,Solid Waste Planning and Policy,819
 ESP475,Topics in Environmental Science,819
 ESP489,Grant Writing Seminar,819
 FSP100,Introduction to Food Systems,819
-FSP200,Food Power and Social Justice,819
+FSP200,"Food, Power and Social Justice",819
 FSP215,Entrepreneurship and the Business of Food,819
 FSP225,Topics in Food Studies,819
-FSP300,Food: History Culture Politics,819
+FSP300,"Food: History, Culture, Politics",819
 FSP310,Food and the Environment,819
 FSP311,Food Planning and Policy,819
 FSP320,Poverty and Hunger,819
@@ -662,7 +662,7 @@ FRE301,Practical French I,819
 FRE302,Practical French II,819
 FRE416,The Linguistic Structure of French,819
 GDS100,Game Design I: Introduction,819
-GDS200,Game Design II: Collaborative Concepts Tools and Processes,819
+GDS200,"Game Design II: Collaborative Concepts, Tools and Processes",819
 GDS300,Game Design III: Practicum in Theory & Application,819
 EGN101,Introduction to Engineering,819
 EGN160,Introduction to Programming: The C Language,819
@@ -693,7 +693,7 @@ GEO101,Human Geography,819
 GEO102,Physical Geography,819
 GEO103,Human-Environmental Geography,819
 GEO104,World-Regional Geography,819
-GEO105,Society Environment and Change,819
+GEO105,"Society, Environment, and Change",819
 GEO107,Maps and Math,819
 GEO108,Introduction to ArcGIS,819
 GEO120,Geography of Maine,819
@@ -705,20 +705,20 @@ GEO210,Planning Maine Communities: Current Issues & Directions,819
 GEO255,Making a Living: Workers in a Global Economy,819
 GEO270,Mapping Environments and People: Data Visualization and Analysis,819
 GEO295,Topics in Geography,819
-GEO302,Gender Work and Space,819
+GEO302,"Gender, Work, and Space",819
 GEO303,Economic Geography,819
 GEO304,Arctic and North Atlantic Regions,819
 GEO305,Remote Sensing,819
 GEO308,GIS Applications I,819
 GEO320,Conservation of Natural Resources,819
 GEO340,Digital Mapping,819
-GEO370,Maps Territory Power,819
+GEO370,"Maps, Territory, Power",819
 GEO395,Topics in Geography,819
 GEO408,GIS Applications II,819
 GEO438,Independent Study in GIS,819
 GEO445,Drone Mapping,819
 GEO448,GIS Internship,819
-GEO455,Gender Race and Class in the City,819
+GEO455,"Gender, Race, and Class in the City",819
 GEO458,Research Applications in GIS,819
 GEO481,Megacities and Global Planning Issues,819
 GEO495,Topics in Geography,819
@@ -726,7 +726,7 @@ GYA215,Culture and Place,819
 GYA300,Archaeology Field School,819
 GYA350,Internship in Applied Geography-Anthropology,819
 GYA400,Independent Study in Anthropology or Geography,819
-GEY100,Volcanoes Earthquakes & Moving Plates,819
+GEY100,"Volcanoes, Earthquakes & Moving Plates",819
 GEY101,Lab Experiences in Geology,819
 GER101,Beginning German I,819
 GER102,Beginning German II,819
@@ -760,45 +760,45 @@ HTY131,United States History to 1877,819
 HTY132,United States History Since 1877,819
 HTY141,African American History to 1865,819
 HTY142,African American History from 1865,819
-HTY143,Native American History 1450-2000,819
+HTY143,"Native American History, 1450-2000",819
 HTY144,Indigenous Peoples in the Atlantic World,819
 HTY152,The Islamic Near East,819
 HTY161,Survey of Ancient and Medieval Africa,819
 HTY162,Modern Africa,819
 HTY171,Traditional East Asia,819
 HTY172,Modern East Asia,819
-HTY200,Reference Research and Report Writing,819
+HTY200,"Reference, Research, and Report Writing",819
 HTY300,History Internship,819
 HTY303,History of the Ancient Near East and Greece,819
 HTY304,History of Rome,819
 HTY305,The Historical Jesus,819
-HTY308,Polytheists Jews and Christians in the Roman Empire,819
+HTY308,"Polytheists, Jews, and Christians in the Roman Empire",819
 HTY311,Medieval Civilization,819
 HTY324,World Wars I and II: European War and Diplomacy,819
 HTY326,History of the British Empire,819
 HTY330,Germany: Bismarck To Hitler,819
-HTY334,The Holocaust: Policy Practice Response,819
+HTY334,"The Holocaust: Policy, Practice, Response",819
 HTY335,Genocide in Our Time,819
 HTY339,Global Women’s History,819
 HTY345,African Americans and American Justice,819
 HTY346,The Civil Rights Movement,819
 HTY347,Race and the Politics of Mass Incarceration,819
 HTY350,Colonial and Revolutionary America,819
-HTY353,Gender in Native North America 1450-1850,819
+HTY353,"Gender in Native North America, 1450-1850",819
 HTY354,From Jefferson to Jackson,819
 HTY356,Civil War and Reconstruction,819
-HTY357,The Gilded Age in America 1869-1898,819
-HTY358,Early Twentieth-Century United States 1898-1938,819
+HTY357,"The Gilded Age in America, 1869-1898",819
+HTY358,"Early Twentieth-Century United States, 1898-1938",819
 HTY360,History of Maine,819
 HTY364,History of Women in the United States,819
 HTY366,History of Religion in America,819
 HTY374,Photographing American History,819
 HTY375,History of American Popular Culture,819
-HTY377,Chinese Thought: Confucianism Daoism and Zen Buddhism,819
+HTY377,"Chinese Thought: Confucianism, Daoism, and Zen Buddhism",819
 HTY380,The 1960s,819
 HTY388,Revolution of Modern China,819
 HTY390,Traditional Japan: Court and Warriors,819
-HTY391,Japan’s Rise and Fall as a World Power 1868-1945,819
+HTY391,"Japan’s Rise and Fall as a World Power, 1868-1945",819
 HTY394,Selected Topics in History,819
 HTY398,Independent Study in History,819
 HTY400,Senior Seminar,819
@@ -815,10 +815,10 @@ ITP310,Facility Planning,819
 ITP330,Supply Chain Management,819
 ITP331,Agile/Adaptive Project Management,819
 ITP340,Quality Management,819
-ITP350,Leadership Teambuilding and Facilitation,819
+ITP350,"Leadership, Teambuilding, and Facilitation",819
 ITP381,Human Resource Development,819
 ITP410,Technical Operations and Strategies,819
-ITP490,Operations Finance and Management Control,819
+ITP490,"Operations, Finance, and Management Control",819
 ITS320,Workplace Safety and Health Management Systems,819
 ITT181,Computing Technologies,819
 ITT200,Introduction to Cybersecurity,819
@@ -842,7 +842,7 @@ ITT400,Occupational Competency,819
 ITT413,Ethical Hacking,819
 ITT440,Internship,819
 ITT444,Animation and Motion Imaging Technologies,819
-ITT451,Cyber Laws Policies and Ethics,819
+ITT451,"Cyber Laws, Policies, and Ethics",819
 ITT453,Special Topics in Information Technology and Cybersecurity,819
 ITT460,Capstone,819
 ITT482,Computer Systems Forensics,819
@@ -864,7 +864,7 @@ GER398,Independent Study,819
 LIN105,Contrastive Analysis: ASL and English,819
 LIN112,The Birth of a Language,819
 LIN130,Language Revitalization and Reclamation Methodologies,819
-LIN185,Language Mind and Society: An Introduction to Linguistics,819
+LIN185,"Language, Mind, and Society: An Introduction to Linguistics",819
 LIN186,Introduction to Linguistics: Lab,819
 LIN201,Language Acquisition,819
 LIN203,Introduction to the Deaf World,819
@@ -877,7 +877,7 @@ LIN311,Phonetics,819
 LIN312,Phonology and Morphology,819
 LIN313,Syntax,819
 LIN316,Language Variation,819
-LIN317,Two Languages One Mind: Introduction to Second Language Acquisition and Bilingualism,819
+LIN317,"Two Languages, One Mind: Introduction to Second Language Acquisition and Bilingualism",819
 LIN331,ASL/English Interpreting,819
 LIN332,Consecutive Interpreting and Deaf/Hearing Interpreter Teams,819
 LIN333,Interpreting: Source Language ASL,819
@@ -918,7 +918,7 @@ LOS300,Organizational Theory,819
 LOS301,Group Dynamics,819
 LOS302,Organizational Behavior,819
 LOS304,Organizational Budgeting and Finance,819
-LOS310,Science Technology and Society,819
+LOS310,"Science, Technology, and Society",819
 LOS312,Human Resource Management,819
 LOS314,Employee Relations,819
 LOS316,Diversity in Organizations,819
@@ -936,8 +936,8 @@ LOS398,Independent Study,819
 LOS399,Special Topics,819
 LOS400,Senior Seminar: Global Citizenship,819
 LOS422,Leadership in the Public/Nonprofit Sectors,819
-LOS436,Risk Public Policy and Society,819
-LOS439,Women’s Ways of Leading: Building Partnerships Creating Change,819
+LOS436,"Risk, Public Policy, and Society",819
+LOS439,"Women’s Ways of Leading: Building Partnerships, Creating Change",819
 LOS440,Leading Organizational Change,819
 LOS462,Community Leadership and Civic Engagement,819
 LOS470,Leadership Study Abroad,819
@@ -1059,7 +1059,7 @@ MUH223,Music History Survey 2,819
 MUH320,Seminar in Music History,819
 MUH321,Classical and Romantic Music,819
 MUH325,The History of Musical Theatre in America,819
-MUH329,Devils Dwarves and Dragons,819
+MUH329,"Devils, Dwarves and Dragons",819
 MUP101,Applied Music,819
 MUP102,Applied Music,819
 MUP201,Applied Music,819
@@ -1147,7 +1147,7 @@ SCI173,Practical Human Anatomy and Physiology II,819
 SCI190,Beer: The Science & Art of Brewing,819
 SCI199,Special Topics,819
 SCI209,Human Genetics,819
-SCI230,Environmental Science Policy and Sustainability with Lab,819
+SCI230,"Environmental Science, Policy, and Sustainability with Lab",819
 SCI231,Digital Photography,819
 SCI240,Applied Botany w/Lab,819
 SCI250,Applied Physics w/ Lab,819
@@ -1215,7 +1215,7 @@ NUR428,Child Health Nursing Clinical,819
 NUR436,Community Nursing Partnerships I for Accelerated B.S. Students Clinical,819
 NUR437,Community Nursing Partnerships II for Accelerated B.S. Students Clinical,819
 NUR470,Leadership and Ethics,819
-NUR474,Professional Issues: Leadership Management and Organizations for RNs,819
+NUR474,"Professional Issues: Leadership, Management, and Organizations for RNs",819
 NUR476,Theory Related to Clinical Specialty for RNs,819
 NUR480,Practicum/Care Management Seminar and Clinical,819
 NUR490,Capstone in Nursing,819
@@ -1233,17 +1233,17 @@ PHI220,Philosophy of Art and Visual Culture,819
 PHI221,Philosophy of Film,819
 PHI225,Philosophy of the Mind,819
 PHI230,Philosophy of Religion,819
-PHI235,Philosophy Social Media and Security,819
+PHI235,"Philosophy, Social Media, and Security",819
 PHI240,Political Philosophy,819
 PHI241,Philosophy & the Politics of Work,819
-PHI245,Africa Social Justice and Exile,819
+PHI245,"Africa, Social Justice, and Exile",819
 PHI250,Philosophy of Science,819
 PHI260,Philosophy of Law,819
 PHI270,Epistemology,819
-PHI285,Biology Technology and Ethics,819
+PHI285,"Biology, Technology, and Ethics",819
 PHI290,Problems in Philosophy,819
 PHI291,Death and Dying,819
-PHI295,Medicine Madness and Disease,819
+PHI295,"Medicine, Madness, and Disease",819
 PHI310,History of Ancient Philosophy,819
 PHI312,Morality in African Literature and Film,819
 PHI315,Eastern Philosophy,819
@@ -1364,7 +1364,7 @@ PSY360,Cognitive Processes,819
 PSY361,Sensation and Perception,819
 PSY363,Human Factors in Regulatory Compliance and Social Policy,819
 PSY365,Physiological Psychology,819
-PSY366,Drugs Mind and Behavior,819
+PSY366,"Drugs, Mind, and Behavior",819
 PSY368,Health Psychology,819
 PSY371,History and Systems of Psychology,819
 PSY375,Psychology in the Public Interest,819
@@ -1422,22 +1422,22 @@ RHF124,T’ai Chi Qigong,819
 RHF126,Stability and Physio-Ball Exercise,819
 RHF131,Indoor Cycling Instructor Preparation,819
 RHF218,Yoga Fusion,819
-REL240,Meaning Morality and Religion,819
+REL240,"Meaning, Morality, and Religion",819
 RMI295,Internship in Risk Management and Insurance,819
 RMI320,Introduction to Risk Management and Insurance,819
-RMI330,Health Life and Disability Insurance,819
+RMI330,"Health, Life, and Disability Insurance",819
 RMI350,Corporate Risk Management and Insurance,819
 RMI395,Internship I,819
 RMI396,Internship II,819
 RSP100,Russell Scholars College Writing,819
 RSP101,Russell Scholars Creative Writing,819
 RSP102,Russell Scholars Academic Writing,819
-RSP103,Russell Scholars Seminar: Culture Community and the Environment,819
+RSP103,"Russell Scholars Seminar: Culture, Community, and the Environment",819
 RSP110,Russell Scholars Learning Community Laboratory,819
 RSP111,Russell Scholars Learning Community Laboratory,819
 RSP199,Russell Scholars Topics,819
-RSP204,The Gulf of Maine: Archaeology Ecology and Environmental Change,819
-RSP205,Exploring Culture On Campus & Off,819
+RSP204,"The Gulf of Maine: Archaeology, Ecology, and Environmental Change",819
+RSP205,"Exploring Culture, On Campus & Off",819
 RSP210,Russell Scholars Learning Community Laboratory,819
 RSP211,Russell Scholars Learning Community Laboratory,819
 RSP299,Topics in RSP,819
@@ -1463,7 +1463,7 @@ SOC336,Law and Society,819
 SOC348,Sociology of Work,819
 SOC355,Politics and Society,819
 SOC358,Sociology of Women’s Work,819
-SOC363,Food Culture and Society,819
+SOC363,"Food, Culture, and Society",819
 SOC365,Sociology of the Body,819
 SOC370,Sociology of the Environment,819
 SOC371,Sociology of Race and Ethnicity,819
@@ -1480,14 +1480,14 @@ SWO201,Introduction to Social Work,819
 SWO250,Introduction to Social Welfare,819
 SWO333,Social Work Research I,819
 SWO334,Social Work Research II,819
-SWO344,Costa Rica Immersion: Social Work Perspectives on Culture Language and Service-Learning,819
+SWO344,"Costa Rica Immersion: Social Work Perspectives on Culture, Language, and Service-Learning",819
 SWO350,Social Welfare Policy,819
 SWO365,Examining Oppression and Valuing Diversity,819
 SWO370,Human Behavior in the Social Environment,819
 SWO374,Sexual Harassment in Education and Work,819
 SWO375,Gender and Aging,819
-SWO383,Social Work with Immigrants Refugees and Asylum Seekers,819
-SWO388,Addictions & Substance Use: Critical Analysis Theory and Best Practice,819
+SWO383,"Social Work with Immigrants, Refugees, and Asylum Seekers",819
+SWO388,"Addictions & Substance Use: Critical Analysis, Theory, and Best Practice",819
 SWO393,Methods of Social Work Practice I,819
 SWO397,Independent Study,819
 SWO399,Topics in Social Work,819
@@ -1512,12 +1512,12 @@ SBS311,Theories of Personality,819
 SBS315,Social Psychology of Disability,819
 SBS316,Diversity in Organizations,819
 SBS329,Research Methods,819
-SBS332,Death Dying and Denial,819
+SBS332,"Death, Dying, and Denial",819
 SBS334,Spirituality,819
 SBS335,Legal Issues in Health and Human Services,819
 SBS336,Fundamentals of Public Health,819
 SBS337,Introduction to Epidemiology,819
-SBS339,Immigration Ethnicity and Identity,819
+SBS339,"Immigration, Ethnicity, and Identity",819
 SBS341,The Family,819
 SBS343,Substance Use Disorders,819
 SBS344,Violence: Causes and Control,819
@@ -1540,7 +1540,7 @@ SBS411,Counseling and Psychotherapy,819
 SBS413,Exploring Careers and Job Search Skills,819
 SBS420,Mindfulness,819
 SBS430,Applied Social and Public Policy,819
-SBS436,Risk Public Policy and Society,819
+SBS436,"Risk, Public Policy, and Society",819
 SBS447,Internship,819
 SBS470,Study Abroad,819
 SPA101,Beginning Spanish I,819
@@ -1559,7 +1559,7 @@ SED300,Ethics and Serving Individuals with Disabilities,819
 SED420,Multi-Tiered Systems Support (MTSS) in Education,819
 SED425,Multi-Tier Mathematics Instruction and Assessment,819
 SED427,Multi-Tier Reading Instruction and Assessment,819
-SPM100,Introduction to Exercise Health and Sport Sciences,819
+SPM100,"Introduction to Exercise, Health, and Sport Sciences",819
 SPM101,Basic Life Support and First Aid 1,819
 SPM102,Basic Life Support and First Aid 2,819
 SPM210,Clinical Athletic Training Principles I,819
@@ -1582,7 +1582,7 @@ SPM381,Kinesiology,819
 SPM390,Biomechanics,819
 SPM398,Independent Study,819
 SPM410,Athletic Training Principles III,819
-SPM430,Exercise Testing Assessment and Prescription,819
+SPM430,"Exercise Testing, Assessment, and Prescription",819
 SPM431,Advanced Exercise Physiology,819
 SPM440,Manual Therapy,819
 SPM450,Exercise for Special Populations,819
@@ -1655,7 +1655,7 @@ THE290,Advanced Rehearsal and Production,819
 THE303,Musical Theatre Performance,819
 THE321,Advanced Acting,819
 THE325,Directing,819
-THE330,Dramaturgy: Creative Research Development and Critique,819
+THE330,"Dramaturgy: Creative Research, Development, and Critique",819
 THE331,Scene Design,819
 THE334,Costume Design,819
 THE335,Lighting Design,819
@@ -1677,19 +1677,19 @@ THE496,External Experience,819
 WGS101,Introduction to Women and Gender Studies,819
 WGS201,Rethinking Gender & Culture,819
 WGS220,Topics in Women and Gender Studies,819
-WGS235,Topics in Science Technology and Health I,819
+WGS235,"Topics in Science, Technology, and Health I",819
 WGS245,Topics in Culture and the Arts I,819
 WGS255,Topics in History and Resistance I,819
 WGS265,Topics in Gender and Institutions I,819
 WGS320,Advanced Topics in Women and Gender Studies,819
-WGS335,Topics in Science Technology and Health II,819
+WGS335,"Topics in Science, Technology, and Health II",819
 WGS345,Topics in Culture and the Arts II,819
 WGS355,Topics in History and Resistance II,819
 WGS365,Topics in Gender and Institutions II,819
 WGS380,The Politics of Difference,819
 WGS390,Contemporary Feminist Theories,819
 WGS420,Advanced Topics in Women and Gender Studies,819
-WGS435,Topics in Science Technology and Health III,819
+WGS435,"Topics in Science, Technology, and Health III",819
 WGS445,Topics in Culture and the Arts III,819
 WGS455,Topics in History and Resistance III,819
 WGS465,Topics in Gender and Institutions III,819

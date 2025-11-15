@@ -1,3 +1,4 @@
+CREATE DATABASE StudyBuddy;
 use StudyBuddy;
 
 -- ----------------------------------------------------------------------------------------------
@@ -9,7 +10,7 @@ use StudyBuddy;
 -- Basic identifying information of a student's college
 CREATE TABLE Colleges (
 	college_id int PRIMARY KEY AUTO_INCREMENT,
-    college_name varchar(255) NOT NULL UNIQUE
+    college_name varchar(255) NOT NULL
 );
 
 -- Table for "majors"
