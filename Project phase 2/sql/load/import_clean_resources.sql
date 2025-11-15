@@ -3,13 +3,14 @@ USE StudyBuddy;
 
 START TRANSACTION;
 
---expose the actual user_id w/ LAST_INSERT_ID
-INSERT INTO Users (user_id, email, password_hash, first_name, last_name)
-VALUES (1001, 'resources@system.local', 'placeholder', 'System', 'Seeder')
+INSERT INTO Users (email, password_hash, first_name, last_name)
+VALUES ('resources@system.local', 'placeholder', 'System', 'Seeder')
 ON DUPLICATE KEY UPDATE
+  user_id = LAST_INSERT_ID(user_id);
 
--- Capture the real id (will be 1001 if we created it, or the existing row's id if email already existed)
 SET @uploader_id := LAST_INSERT_ID();
+-- safer version of an insert of a system user into the db. 
+-- sets id and every time this is used, will revert to system seeder id
 
 
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'Www.Zhihu.Com / 6463687174', '', 'LINK', 'https://www.zhihu.com/question/6463687174');
@@ -261,3 +262,4 @@ INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES 
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'A1Ahr0Chm6Ly9Zag9Wlmfkdmfuy2Vhdxrvcgfydhmuy29Tl2M0L2Jhdhrlcnkvmtm2Ndy Bxnvy2Tpzd0Yotgwodmxyte2Mdq2Yt', '', 'LINK', 'a1aHR0cHM6Ly9zaG9wLmFkdmFuY2VhdXRvcGFydHMuY29tL2M0L2JhdHRlcnkvMTM2NDY_bXNvY2tpZD0yOTgwODMxYTE2MDQ2YTNmMmMwYjk1ODYxNzM5NmJiNQ');
 
 COMMIT;
+
