@@ -1,4 +1,5 @@
 use StudyBuddy;
+-- By Rise Akizaki
 
 -- Query Example 1 for Analysis
 -- Find course (names) which are part of USM, and are ART courses

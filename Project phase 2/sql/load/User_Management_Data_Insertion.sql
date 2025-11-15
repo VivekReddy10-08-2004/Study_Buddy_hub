@@ -1,4 +1,5 @@
 use StudyBuddy;
+-- By Rise Akizaki
 
 -- Inserting data into colleges table
 
