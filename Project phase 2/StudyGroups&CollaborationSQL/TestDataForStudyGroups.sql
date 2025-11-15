@@ -1,3 +1,5 @@
+USE StudyBuddy;
+
 SET autocommit = 0;
 START TRANSACTION;
 SAVEPOINT seed_start;

@@ -1,4 +1,4 @@
-
+Use StudyBuddy;
 
 CREATE TABLE Study_Group(
 	group_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -51,6 +51,7 @@ CREATE TABLE Resource(
     title VARCHAR(100) NOT NULL,
     description TEXT NULL,
     filetype VARCHAR(30) NOT NULL,
+	source VARCHAR(1000) NOT NULL,
     upload_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (uploader_id) REFERENCES Users(user_id)
 );
