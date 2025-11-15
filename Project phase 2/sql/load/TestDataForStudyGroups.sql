@@ -46,10 +46,13 @@ SELECT group_id, 1001, 'Welcome to the group!' FROM Study_Group WHERE group_name
 INSERT INTO Chat_Message (group_id, user_id, content)
 SELECT group_id, 1003, 'Thanks! excited to join.' FROM Study_Group WHERE group_name='group1';
 
+-- Change made by Vivek Because the Resource table 
+-- in StudyGroupsAndCollaboration.sql has a source column marked NOT NULL with no default, 
+-- every insert must provide a value for it. 
 INSERT INTO Resource (uploader_id, title, description, filetype)
 VALUES
-  (1001, 'study_plan.md', 'Agenda for week 1', 'MD'),
-  (1003, 'joins.pdf', 'Inner/Outer Join Cheat Sheet', 'PDF');
+  (1001, 'study_plan.md', 'Agenda for week 1', 'MD', 'manual seed'),
+  (1003, 'joins.pdf', 'Inner/Outer Join Cheat Sheet', 'PDF', 'manual seed');
 
 INSERT INTO Match_Profile (user_id, study_style, meeting_pref, bio)
 VALUES
