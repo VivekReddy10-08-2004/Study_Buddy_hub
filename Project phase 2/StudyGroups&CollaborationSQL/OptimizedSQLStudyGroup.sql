@@ -1,13 +1,15 @@
+USE StudyBuddy;
+
 /* 
    These indexes target frequent filter, join, and order-by patterns
    redeuces filesorts and improve range-scan
 */
 
 -- Study_Group: filter by (course_id, is_private), then join by PK
--- Enables quick access to public groups for a course
+-- quick access to public groups for a course
 CREATE INDEX idx_group_course_priv ON Study_Group(course_id, is_private, group_id);
 
--- Extra course to group path for cross-course queries (shared courses).
+-- extra course to group path for cross-course queries (shared courses).
 CREATE INDEX idx_group_course_group ON Study_Group(course_id, group_id);
 
 -- Group_Member: enables lookups both by user and by group
@@ -119,10 +121,34 @@ END//
 
 DELIMITER ;
 
+-- Trigger to enforce one owner only
+-- Will work on optimizing this later... 
+DELIMITER //
+CREATE TRIGGER one_owner_only
+BEFORE INSERT ON Group_Member
+FOR EACH ROW
+BEGIN
+    DECLARE owner_count INT DEFAULT 0;
+    -- count
 
-/* 
-   accurate EXPLAIN results.
- */
+    -- only check when trying to add an owner
+    IF NEW.role = 'owner' THEN
+        SELECT COUNT(*) INTO owner_count
+        FROM Group_Member
+        WHERE group_id = NEW.group_id
+        AND role = 'owner';
+        IF owner_count > 0 THEN
+            -- stop the insert by setting a bad value or doing nothing
+            SET NEW.role = NULL;
+        END IF;
+    END IF;
+END//
+DELIMITER ;
+
+-- making sure end time before start time
+ALTER TABLE Study_Session
+ADD CONSTRAINT chk_time CHECK (end_time > start_time);
+
 ANALYZE TABLE
   Study_Group,
   Group_Member,
@@ -134,124 +160,226 @@ ANALYZE TABLE
   Resource,
   Group_Summary;
 
+DELIMITER //
 
 /* 
-   Each query now benefits from indexing.
-*/
+   PROCEDURES FOR STUDY GROUPS & COLLABORATION
+   (each one wraps one of your EXPLAIN queries)
+   Call examples are shown in comments.
+ */
 
 -- Discover public groups for a course
--- Uses Group_Summary to avoid recalculating counts and last sessions
-EXPLAIN ANALYZE
-SELECT g.group_id, g.group_name, g.max_members,
-       gs.member_count AS members,
-       gs.last_session
-FROM Study_Group AS g
-LEFT JOIN Group_Summary AS gs ON gs.group_id = g.group_id
-WHERE g.course_id = 420
-  AND g.is_private = FALSE
-ORDER BY (gs.last_session IS NULL) ASC,
-         gs.last_session DESC,
-         gs.member_count DESC
-LIMIT 20;
-
-
--- Retrieve all groups a user belongs to, along with their role
-EXPLAIN ANALYZE
-SELECT g.group_id, g.group_name, gm.role
-FROM Group_Member AS gm
-JOIN Study_Group AS g ON g.group_id = gm.group_id
-WHERE gm.user_id = 1001
-ORDER BY g.group_name;
-
-
--- View pending join requests (for group owners)
-EXPLAIN ANALYZE
-SELECT g.group_name, jr.user_id, jr.request_date, jr.expire_date
-FROM Join_Request AS jr
-JOIN Study_Group AS g ON g.group_id = jr.group_id
-WHERE jr.join_status = 'pending'
-ORDER BY jr.expire_date;
-
-
--- List pending join requests and determine if user is already a member
-EXPLAIN ANALYZE
-SELECT jr.request_id, jr.group_id, jr.user_id,
-       CASE WHEN gm.user_id IS NULL THEN 'NOT_MEMBER' ELSE 'ALREADY_MEMBER' END AS membership_state
-FROM Join_Request AS jr
-LEFT JOIN Group_Member AS gm
-  ON gm.group_id = jr.group_id AND gm.user_id = jr.user_id
-WHERE jr.join_status = 'pending'
-ORDER BY jr.request_date DESC
-LIMIT 50;
-
-
--- Display today’s sessions across all groups
-EXPLAIN ANALYZE
-SELECT g.group_name, s.location, s.session_date, s.start_time, s.end_time, s.notes
-FROM Study_Session AS s
-JOIN Study_Group AS g ON g.group_id = s.group_id
-WHERE s.session_date = CURRENT_DATE()
-ORDER BY g.group_name, s.start_time;
-
-
--- Show upcoming sessions for a specific user 
-EXPLAIN ANALYZE
-SELECT g.group_name, s.session_date, s.start_time, s.location
-FROM Group_Member AS gm
-JOIN Study_Session AS s ON s.group_id = gm.group_id
-JOIN Study_Group AS g ON g.group_id = gm.group_id
-WHERE gm.user_id = 1001
-  AND s.session_date >= CURRENT_DATE()
-ORDER BY s.session_date, s.start_time
-LIMIT 50;
-
-
--- Fetch chat history efficiently using keyset pagination
-EXPLAIN ANALYZE
-SELECT c.message_id, c.user_id, c.content, c.sent_time
-FROM Chat_Message AS c
-WHERE c.group_id = 1
-ORDER BY c.sent_time DESC, c.message_id DESC
-LIMIT 50;
-
--- Example for next-page pagination:
--- SET @last_time := '2025-11-10 23:59:59'; SET @last_id := 12345;
--- SELECT ... WHERE c.sent_time < @last_time OR (c.sent_time = @last_time AND c.message_id < @last_id)
--- ORDER BY c.sent_time DESC, c.message_id DESC LIMIT 50;
-
-
--- Suggest study partners based on shared courses and compatible styles/preferences
-EXPLAIN ANALYZE
-WITH shared_peers AS (
-  SELECT DISTINCT gm2.user_id
-  FROM Group_Member gm1
-  JOIN Study_Group  g1 ON g1.group_id = gm1.group_id
-  JOIN Study_Group  g2 ON g2.course_id = g1.course_id
-  JOIN Group_Member gm2 ON gm2.group_id = g2.group_id
-  WHERE gm1.user_id = 1001 AND gm2.user_id <> 1001
+-- Ex CALL GetPublicGroupsForCourse(420, 20);
+DROP PROCEDURE IF EXISTS GetPublicGroupsForCourse//
+CREATE PROCEDURE GetPublicGroupsForCourse(
+    IN p_course_id INT,
+    IN p_limit INT
 )
-SELECT mp2.user_id, mp2.study_style, mp2.meeting_pref
-FROM Match_Profile mp1
-JOIN Match_Profile mp2
-  ON mp1.user_id = 1001
- AND mp2.user_id IN (SELECT user_id FROM shared_peers)
-WHERE (mp2.meeting_pref = mp1.meeting_pref OR mp2.study_style <> mp1.study_style)
-ORDER BY mp2.user_id
-LIMIT 20;
+BEGIN
+  SELECT g.group_id, g.group_name, g.max_members,
+         gs.member_count AS members,
+         gs.last_session
+  FROM Study_Group AS g
+  LEFT JOIN Group_Summary AS gs ON gs.group_id = g.group_id
+  WHERE g.course_id = p_course_id
+    AND g.is_private = FALSE
+  ORDER BY (gs.last_session IS NULL) ASC,
+           gs.last_session DESC,
+           gs.member_count DESC
+  LIMIT p_limit;
+END//
 
 
--- Retrieve recent message requests (user inbox view)
-EXPLAIN ANALYZE
-SELECT mr.request_id, mr.requester_user_id, mr.course_id, mr.request_status, mr.created_at
-FROM Message_Request AS mr
-WHERE mr.target_user_id = 1001
-ORDER BY mr.created_at DESC
-LIMIT 50;
+-- All groups a user belongs to (+ their role)
+-- Ex CALL GetUserGroups(1001);
+DROP PROCEDURE IF EXISTS GetUserGroups//
+CREATE PROCEDURE GetUserGroups(
+    IN p_user_id INT
+)
+BEGIN
+  SELECT 
+      g.group_id,
+      g.group_name,
+      gm.role,
+      u.user_id,
+      CONCAT(u.first_name, ' ', u.last_name) AS user_name
+  FROM Group_Member AS gm
+  JOIN Study_Group AS g 
+        ON g.group_id = gm.group_id
+  JOIN Users AS u
+        ON u.user_id = gm.user_id
+  WHERE gm.user_id = p_user_id
+  ORDER BY g.group_name;
+END//
+
+-- Pending join requests (owner dashboard)
+-- EX CALL GetPendingJoinRequests();
+DROP PROCEDURE IF EXISTS GetPendingJoinRequests//
+CREATE PROCEDURE GetPendingJoinRequests()
+BEGIN
+  SELECT g.group_name, jr.user_id, jr.request_date, jr.expire_date
+  FROM Join_Request AS jr
+  JOIN Study_Group AS g ON g.group_id = jr.group_id
+  WHERE jr.join_status = 'pending'
+  ORDER BY jr.expire_date;
+END//
 
 
--- Fetch latest uploaded resources (read-only view)
-EXPLAIN ANALYZE
-SELECT resource_id, title, filetype, source
-FROM Resource
-ORDER BY resource_id DESC
-LIMIT 25;
+-- Return all pending join request with if the user is already a member of the group or is not a member
+-- Helps group owner to know if request is valid
+-- CALL GetPendingRequestsWithMembership(50);
+DROP PROCEDURE IF EXISTS GetPendingRequestsWithMembership//
+CREATE PROCEDURE GetPendingRequestsWithMembership(
+    IN p_limit INT
+)
+BEGIN
+  SELECT jr.request_id, jr.group_id, jr.user_id,
+         CASE WHEN gm.user_id IS NULL THEN 'NOT_MEMBER'
+              ELSE 'ALREADY_MEMBER'
+         END AS membership_state
+  FROM Join_Request AS jr
+  LEFT JOIN Group_Member AS gm
+    ON gm.group_id = jr.group_id AND gm.user_id = jr.user_id
+  WHERE jr.join_status = 'pending'
+  ORDER BY jr.request_date DESC
+  LIMIT p_limit;
+END//
+
+
+-- return all sessions going on today
+-- CALL GetTodaysSessions();
+DROP PROCEDURE IF EXISTS GetTodaysSessions//
+CREATE PROCEDURE GetTodaysSessions()
+BEGIN
+  SELECT g.group_name, s.location, s.session_date, s.start_time, s.end_time, s.notes
+  FROM Study_Session AS s
+  JOIN Study_Group AS g ON g.group_id = s.group_id
+  WHERE s.session_date = CURRENT_DATE()
+  ORDER BY g.group_name, s.start_time;
+END//
+
+
+-- Upcoming sessions for a user a specific user
+-- ex CALL GetUpcomingSessionsForUser(1001, 50);
+DROP PROCEDURE IF EXISTS GetUpcomingSessionsForUser//
+CREATE PROCEDURE GetUpcomingSessionsForUser(
+    IN p_user_id INT,
+    IN p_limit INT
+)
+BEGIN
+  SELECT 
+      g.group_name,
+      s.session_date,
+      s.start_time,
+      s.location,
+      u.user_id,
+      CONCAT(u.first_name, ' ', u.last_name) AS user_name
+  FROM Group_Member AS gm
+  JOIN Study_Session AS s 
+        ON s.group_id = gm.group_id
+  JOIN Study_Group AS g 
+        ON g.group_id = gm.group_id
+  JOIN Users AS u
+        ON u.user_id = gm.user_id
+  WHERE gm.user_id = p_user_id
+    AND s.session_date >= CURRENT_DATE()
+  ORDER BY s.session_date, s.start_time
+  LIMIT p_limit;
+END//
+
+-- Chat history (latest messages in a specific group)
+-- Ex CALL GetChatMessagesForGroup(1, 50);
+DROP PROCEDURE IF EXISTS GetChatMessagesForGroup//
+CREATE PROCEDURE GetChatMessagesForGroup(
+    IN p_group_id INT,
+    IN p_limit INT
+)
+BEGIN
+  SELECT c.message_id, c.user_id, c.content, c.sent_time
+  FROM Chat_Message AS c
+  WHERE c.group_id = p_group_id
+  ORDER BY c.sent_time DESC, c.message_id DESC
+  LIMIT p_limit;
+END//
+
+
+-- Suggested matches for a specific user
+-- Ex CALL GetSuggestedMatches(1001, 20);
+DROP PROCEDURE IF EXISTS GetSuggestedMatches//
+CREATE PROCEDURE GetSuggestedMatches(
+    IN p_user_id INT,
+    IN p_limit INT
+)
+BEGIN
+  WITH shared_peers AS (
+      SELECT DISTINCT gm2.user_id
+      FROM Group_Member gm1
+      JOIN Study_Group g1 ON g1.group_id = gm1.group_id
+      JOIN Study_Group g2 ON g2.course_id = g1.course_id
+      JOIN Group_Member gm2 ON gm2.group_id = g2.group_id
+      WHERE gm1.user_id = p_user_id
+        AND gm2.user_id <> p_user_id
+  )
+  SELECT 
+      mp1.user_id AS base_user_id,
+      CONCAT(u_self.first_name, ' ', u_self.last_name) AS base_user_name,
+      mp2.user_id AS suggested_user_id,
+      CONCAT(u_other.first_name, ' ', u_other.last_name) AS suggested_user_name,
+      mp2.study_style,
+      mp2.meeting_pref
+  FROM Match_Profile mp1
+  JOIN Match_Profile mp2
+      ON mp1.user_id = p_user_id
+     AND mp2.user_id IN (SELECT user_id FROM shared_peers)
+  JOIN Users u_self
+      ON u_self.user_id = mp1.user_id
+  JOIN Users u_other
+      ON u_other.user_id = mp2.user_id
+  WHERE mp2.meeting_pref = mp1.meeting_pref
+     OR mp2.study_style <> mp1.study_style
+  ORDER BY mp2.user_id
+  LIMIT p_limit;
+END//
+
+-- Message-request inbox for a user
+-- Ex CALL GetMessageRequestsForUser(1001, 50);
+DROP PROCEDURE IF EXISTS GetMessageRequestsForUser//
+CREATE PROCEDURE GetMessageRequestsForUser(
+    IN p_user_id INT,
+    IN p_limit INT
+)
+BEGIN
+  SELECT 
+      mr.request_id,
+      mr.requester_user_id,
+      CONCAT(u_req.first_name, ' ', u_req.last_name) AS requester_name,
+      mr.target_user_id,
+      CONCAT(u_tgt.first_name, ' ', u_tgt.last_name) AS target_user_name,
+      mr.course_id,
+      mr.request_status,
+      mr.created_at
+  FROM Message_Request AS mr
+  JOIN Users u_req
+      ON u_req.user_id = mr.requester_user_id
+  JOIN Users u_tgt
+      ON u_tgt.user_id = mr.target_user_id
+  WHERE mr.target_user_id = p_user_id
+  ORDER BY mr.created_at DESC
+  LIMIT p_limit;
+END//
+
+-- Latest uploaded resources
+-- Ex CALL GetLatestResources(25);
+DROP PROCEDURE IF EXISTS GetLatestResources//
+CREATE PROCEDURE GetLatestResources(
+    IN p_limit INT
+)
+BEGIN
+  SELECT resource_id, title, filetype, source
+  FROM Resource
+  ORDER BY resource_id DESC
+  LIMIT p_limit;
+END//
+
+DELIMITER ;
+
