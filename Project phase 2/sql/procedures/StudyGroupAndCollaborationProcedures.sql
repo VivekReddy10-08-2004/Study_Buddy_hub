@@ -336,7 +336,7 @@ BEGIN
   JOIN Users u_other
       ON u_other.user_id = mp2.user_id
   WHERE mp2.meeting_pref = mp1.meeting_pref
-     OR mp2.study_style <> mp1.study_style
+     OR mp2.study_style = mp1.study_style
   ORDER BY mp2.user_id
   LIMIT p_limit;
 END//
