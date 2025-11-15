@@ -3,10 +3,28 @@ USE StudyBuddy;
 
 START TRANSACTION;
 
-INSERT INTO Users (email, password_hash, first_name, last_name)
-VALUES ('resources@system.local', 'placeholder', 'System', 'Seeder')
+INSERT INTO Users (user_id, email, password_hash, first_name, last_name)
+VALUES (1001, 'resources@system.local', 'placeholder', 'System', 'Seeder')
 ON DUPLICATE KEY UPDATE
-  user_id = LAST_INSERT_ID(user_id);
+   -- Done by Vivek, valid "no-op" update that also ensures
+   -- LAST_INSERT_ID() is set to the user_id (1001) whether the row
+   -- is new or it already existed.
+   user_id = LAST_INSERT_ID(user_id);
+
+   -- Done by vivek modifying to add user_id 1002, 1003, 1004, and 1005 to the Users table. 
+   -- This way, when TestDataForStudyGroups.sql runs, all the users it needs will already exist, 
+   -- and the foreign key error will be gone.
+   -- Create other test/system users that other scripts might need
+INSERT INTO Users (user_id, email, password_hash, first_name, last_name)
+VALUES
+    (1002, 'testuser1@system.local', 'placeholder', 'Test', 'User1'),
+    (1003, 'testuser2@system.local', 'placeholder', 'Test', 'User2'),
+    (1004, 'testuser3@system.local', 'placeholder', 'Test', 'User3'),
+    (1005, 'testuser4@system.local', 'placeholder', 'Test', 'User4')
+ON DUPLICATE KEY UPDATE
+   -- This just ensures the INSERTs don't fail if they already exist
+   email = VALUES(email);
+
 
 SET @uploader_id := LAST_INSERT_ID();
 -- safer version of an insert of a system user into the db. 
@@ -262,4 +280,5 @@ INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES 
 INSERT INTO Resource (uploader_id, title, description, filetype, source) VALUES (@uploader_id, 'A1Ahr0Chm6Ly9Zag9Wlmfkdmfuy2Vhdxrvcgfydhmuy29Tl2M0L2Jhdhrlcnkvmtm2Ndy Bxnvy2Tpzd0Yotgwodmxyte2Mdq2Yt', '', 'LINK', 'a1aHR0cHM6Ly9zaG9wLmFkdmFuY2VhdXRvcGFydHMuY29tL2M0L2JhdHRlcnkvMTM2NDY_bXNvY2tpZD0yOTgwODMxYTE2MDQ2YTNmMmMwYjk1ODYxNzM5NmJiNQ');
 
 COMMIT;
+
 
