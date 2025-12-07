@@ -66,6 +66,30 @@ git push origin backup-before-revert-pr-43
 
 ## Conclusion
 
-The primary objective (reverting PR #43) has been successfully achieved through PR #45. The only outstanding item is pushing the backup branch `backup-before-revert-pr-43` to the remote repository, which can be done manually by a repository maintainer if needed.
+The primary objective (reverting PR #43) has been successfully achieved through PR #45. The only outstanding item is pushing the backup branch `backup-before-revert-pr-43` to the remote repository.
 
-PR #44 (this PR) can be closed as the work has been completed through PR #45.
+### To Push the Backup Branch
+
+Run this command from your local repository:
+
+```bash
+git fetch
+git push origin c422db73c22355af506bb25d6c0a8019810165b7:refs/heads/backup-before-revert-pr-43
+```
+
+Or if you have the branch locally:
+
+```bash
+git push origin backup-before-revert-pr-43
+```
+
+After pushing, the backup branch will be accessible at:
+- **URL**: https://github.com/VivekReddy10-08-2004/Study_Buddy_hub/tree/backup-before-revert-pr-43
+
+### Next Steps
+
+1. ✅ Revert is complete and merged via PR #45
+2. ⚠️ Push the backup branch using the command above
+3. ✅ Close PR #44 (this PR) as the work is done
+
+**Note**: Detailed instructions for pushing the backup branch are also available in `PUSH_BACKUP_BRANCH.md`.
